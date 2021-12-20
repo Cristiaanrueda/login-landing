@@ -27,6 +27,11 @@ body{
     
 }
 
+.box1 h1{
+    text-align: center;
+    padding-top: 14rem;
+}
+
 .box1{
     background: url(./assets/default-avatar-1.jpg);
     background-repeat: no-repeat;
@@ -38,10 +43,6 @@ body{
     margin-top: 5rem;
 }
 
-.h1{
-    text-align: center;
-   
-}
 
 .email{
     border: 2px solid black;
@@ -139,3 +140,4 @@ form {
     
     
 }
+
