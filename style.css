@@ -8,11 +8,17 @@ body{
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
 }
 
 .container{
-    max-width: 960px;  
+    max-width: 600px;  
     margin: 0 auto;
+    
     background: #F0BB62;
 
     
@@ -23,22 +29,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 200px;
-    height: 200px;
-    margin-left: 21rem;
-    margin-right: 21rem;
+    width: 210px;
+    height: 210px;
+    margin-left: 12rem;
     margin-top: 10rem;
 }
 
 .h1{
-    margin-left: 23rem;
+    text-align: center;
    
 }
 
 .email{
     border: 2px solid black;
     text-align: center;
-    margin-left: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
@@ -49,7 +55,8 @@ body{
 .email:hover{
     border: 2px solid black;
     text-align: center;
-    margin-left: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
@@ -60,7 +67,8 @@ body{
 .pwd{
     border: 2px solid black;
     text-align: center;
-    margin-left: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
@@ -71,7 +79,8 @@ body{
 .pwd:hover{
     border: 2px solid black;
     text-align: center;
-    margin-left: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
@@ -84,22 +93,53 @@ body{
 .btn{
     width: 10rem;
     height: 2.5rem;
-    margin-left: 22.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 1.5rem;
     background: #315836;
     color: #fff;
 }
 
-.fgot{
+.btn:hover{
     width: 10rem;
     height: 2.5rem;
-    margin-left: 22.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    background: #519259;
+    color: #fff;
+}
+
+.fgot{
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 1.5rem;
     background: #315836;
+    color: #fff;
+}
+
+.fgot:hover{
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    background: #519259;
     color: #fff;
 }
 
 a{
     text-decoration: none;
     color: #fff;
+}
+
+form {
+    max-width: 600px;  
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    
 }
