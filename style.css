@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Mohave:ital,wght@1,600&display=swap');
+
+body{
+    font-family: 'Alegreya', serif;
+    background: #F4EEA9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 960px;  
+    margin: 0 auto;
+    background: #F0BB62;
+
+    
+}
+
+.box1{
+    background: url(./assets/default-avatar-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 21rem;
+    margin-right: 21rem;
+    margin-top: 10rem;
+}
+
+.h1{
+    margin-left: 23rem;
+   
+}
+
+.email{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 3rem;
+    background: #519259;
+    color: #fff;
+}
+
+.email:hover{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 3rem;
+    background: #3a6940;
+    color: #fff;
+}
+
+.pwd{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 3rem;
+    background: #519259;
+    color: #fff;
+}
+
+.pwd:hover{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 3rem;
+    background: #3a6940;
+    color: #fff;
+}
+
+
+
+.btn{
+    width: 10rem;
+    height: 2.5rem;
+    margin-left: 22.5rem;
+    margin-top: 1.5rem;
+    background: #315836;
+    color: #fff;
+}
+
+.fgot{
+    width: 10rem;
+    height: 2.5rem;
+    margin-left: 22.5rem;
+    margin-top: 1.5rem;
+    background: #315836;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
