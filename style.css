@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Alegreya', serif;
-    background: #F4EEA9;
+    background: #E25822;
 }
 
 * {
@@ -16,11 +16,12 @@ body{
 }
 
 .container{
-    max-width: 600px;  
+    max-width: 600px; 
     margin: 0 auto;
+    height: 700px;
     margin-top: 2rem;
     border: 2px solid black;
-    background: #F0BB62;
+    background: #D47AE8;
     padding-bottom: 2rem;
 
 
@@ -33,7 +34,7 @@ body{
 }
 
 .box1{
-    background: url(./assets/default-avatar-1.jpg);
+    background: url(./assets/user.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -48,22 +49,24 @@ body{
     border: 2px solid black;
     text-align: center;
     margin-left: 11rem;
+    margin-right: 11rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
-    background: #519259;
-    color: #fff;
+    background: #F4BEEE;
+    color: black;
 }
 
 .email:hover{
     border: 2px solid black;
     text-align: center;
     margin-left: 11rem;
+    margin-right: 11rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
-    background: #3a6940;
-    color: #fff;
+    background: #c59bc0;
+    color: black;
 }
 
 .pwd{
@@ -74,19 +77,20 @@ body{
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
-    background: #519259;
-    color: #fff;
+    background: #F4BEEE;
+    color: black;
 }
 
 .pwd:hover{
     border: 2px solid black;
     text-align: center;
     margin-left: 11rem;
+    margin-right: 11rem;
     margin-top: 1rem;
     width: 15rem;
     height: 3rem;
-    background: #3a6940;
-    color: #fff;
+    background: #c59bc0;
+    color: black;
 }
 
 
@@ -95,36 +99,68 @@ body{
     width: 10rem;
     height: 2.5rem;
     margin-left: 13.5rem;
+    margin-right: 13.5rem;
     margin-top: 1.5rem;
-    background: #315836;
+    background: #d4a8cf;
     color: #fff;
+    border-radius: 1rem;
 }
 
 .btn:hover{
     width: 10rem;
     height: 2.5rem;
     margin-left: 13.5rem;
+    margin-right: 13.5rem;
     margin-top: 1.5rem;
-    background: #519259;
+    background:#c59bc0;
     color: #fff;
+    border-radius: 1rem;
 }
 
 .fgot{
     width: 15rem;
     height: 2.5rem;
     margin-left: 11rem;
+    margin-right: 11rem;
     margin-top: 1.5rem;
-    background: #315836;
+    background: #d4a8cf;
     color: #fff;
+    border-radius: 1rem;
 }
 
 .fgot:hover{
     width: 15rem;
     height: 2.5rem;
     margin-left: 11rem;
+    margin-right: 11rem;
     margin-top: 1.5rem;
-    background: #519259;
+    background: #c59bc0;
     color: #fff;
+    border-radius: 1rem;
+}
+
+.division{
+    border-top: 2px solid black;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+   
+}
+
+.division p {
+    text-align: end;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.division a{
+    color: #EDD2F3;
+   
+}
+
+.division a:hover{
+    color: #b19cb6;
+    text-decoration: underline;
 }
 
 a{
